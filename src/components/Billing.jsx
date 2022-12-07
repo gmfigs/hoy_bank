@@ -15,8 +15,8 @@ const Billing = () => (
 
       </div>
 
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
+      <div className="flex-1 flex justify-center items-center flex-col ">
+        <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]">
           Easily control your <br className='sm:block hidden'/> billing & invoicing.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
